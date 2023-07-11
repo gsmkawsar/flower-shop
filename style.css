@@ -237,15 +237,13 @@ justify-content: center
 
 /* Email form */
 .email-form{
-
-    align-items: center;
     justify-content: center;
     background-image: url("./image/Rectangle\ 9.png") ;
-    margin: 50px 150px 50px 150px;
+    margin: 50px 30px 50px 30px;
     text-align: center;
     padding: 100px;
     border-radius: 8px;
-
+    background-repeat: no-repeat;
 }
 
 .form-titel{
@@ -254,7 +252,6 @@ justify-content: center
     font-size: 30px;
     font-weight: 800;
     margin-top: 15px;
-
 }
 
 .from-discirption{
@@ -263,12 +260,9 @@ justify-content: center
     color: rgba(39, 39, 39, 0.60);
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
-
 .btn-submit{
-
     padding: 10px 20px;
     background-color: #E55473;
     color: white;
@@ -278,11 +272,12 @@ justify-content: center
 }
 
 .btn-email{
-    padding: 10px 100px ;
+    padding: 10px 100px 10px 10px ;
     border-radius: 5px;
     margin-bottom: 15px;
     border: 0;
     margin-right: 10px;
+   
 }
 
 
