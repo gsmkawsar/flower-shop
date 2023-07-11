@@ -13,37 +13,36 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px 240px 0px;
+
 }
 
 .header-image{
-    width: 635px;
-    height: 800px;
+    width: 280px;
+    height: 350px;
+
 
 }
 .titel-text{
     color: #272727;
     font-weight: 800;
-    margin-bottom: 32px;
-    font-size: 80px;
+    margin-bottom: 16px;
+    font-size: 40px;
 
 }
 
 .header-text{
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 30px;
+    font-size: 13px;
+
 }
 
 .btn-prymary{
-    padding: 20px 43px;
+    padding: 10px 20px;
     background-color: #E55473;
     color: white;
     border: 0;
     border-radius: 5px;
-    margin-top: 32px;
+    margin-top: 14px;
 
 }
 
@@ -52,16 +51,16 @@
 .Featured-titel{
     color: #272727;
     text-align: center;
-    font-size: 40px;
-    margin-top: 178px;
+    font-size: 30px;
+    margin-top: 50px;
     font-weight: bold;
 }
 .Featured-text{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
-    margin-top: 24px;
+    margin-top: 14px;
 }
 
 .Featured-contenar{
@@ -101,17 +100,44 @@
 
 
 .flower-img{
-    width: 310px;
-    height: 428px;
+    width: 155px;
+    height: 215px;
     margin: 110px 76px 0px 76px;
 }
 
 .Pink-Flower{
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 35px;
     text-decoration-line: underline;
 
  
+}
+
+/* support styles */
+
+.Support-box{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px 150px;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+
+
+
+}
+.support{
+    text-align: center;
+    margin-left:  50px;
+}
+
+.support-img{
+    width: 50px;
+}
+
+.support-text{
+    font-size: 12px;
 }
