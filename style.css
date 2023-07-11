@@ -125,8 +125,7 @@ justify-content: center
 .Support-box{
     display: flex;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 180px;
     align-items: center;
     justify-content: space-around;
     height: 180px;
@@ -140,7 +139,7 @@ justify-content: center
 }
 
 .support-img{
-    width: 50px;
+    width: 40px;
     margin-bottom: 10px;
 }
 
@@ -236,14 +235,20 @@ justify-content: center
 }
 
 /* Email form */
+
+    
+
 .email-form{
-    justify-content: center;
     background-image: url("./image/Rectangle\ 9.png") ;
-    margin: 50px 30px 50px 30px;
+    background-repeat: no-repeat;
+    margin: 50px 180px;
     text-align: center;
     padding: 100px;
     border-radius: 8px;
-    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+
 }
 
 .form-titel{
@@ -260,6 +265,7 @@ justify-content: center
     color: rgba(39, 39, 39, 0.60);
     margin-top: 15px;
     margin-bottom: 15px;
+
 }
 
 .btn-submit{
@@ -287,7 +293,7 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 }
 .flower-color{
     color: #E55473;
