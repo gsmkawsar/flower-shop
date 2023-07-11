@@ -286,5 +286,28 @@ justify-content: center
 }
 
 
+/* footer */
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.flower-color{
+    color: #E55473;
+}
+
+.flower-titel{
+    font-size: 40px;
+}
+
+.footer-text{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h6{
+    color: #FFFFFF66;
+}
 
